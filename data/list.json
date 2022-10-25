@@ -9,18 +9,18 @@
     },
     {
         "id": "03",
-        "sub_name": "Algorithm"
+        "sub_name": "Discrete Math"
     },
     {
         "id": "04",
-        "sub_name": "Algorithm"
+        "sub_name": "Compiler Design"
     },
     {
         "id": "05",
-        "sub_name": "Algorithm"
+        "sub_name": "Artificial Intelligence"
     },
     {
         "id": "06",
-        "sub_name": "Algorithm"
+        "sub_name": "Machine Learning"
     }
 ]
