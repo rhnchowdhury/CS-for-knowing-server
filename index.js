@@ -21,15 +21,15 @@ app.get('/subList/:id', (req, res) => {
 
 app.get('/subject/:id', (req, res) => {
     const id2 = req.params.id;
-    if (id2 === '08') {
-        res.send(subShow)
-    }
-    else {
-        const subDetails = subShow.find(s => s.sub_id == id2);
-        res.send(subDetails);
-    }
-    // const subDetails = subShow.find(s => s.sub_id == id2);
-    // res.send(subDetails);
+    // if (id2 === '08') {
+    //     res.send(subShow)
+    // }
+    // else {
+    //     const subDetails = subShow.find(s => s.sub_id == id2);
+    //     res.send(subDetails);
+    // }
+    const subDetails = subShow.filter(s => s.sub_id == id2);
+    res.send(subDetails);
 
 });
 
